@@ -5,11 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:foreground="@drawable/hd_wallpaper_poker_king_2_tone_3d_background_cards_color_design_games_graphically_kings_neon_other_royalty"
+    android:visibility="visible"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="158dp"
+        android:layout_height="246dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="265dp"
+        tools:srcCompat="@drawable/saptepica" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="118dp"
         android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="158dp"
+        android:layout_height="246dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="264dp"
+        android:visibility="visible"
+        tools:srcCompat="@drawable/optpica"
+        tools:visibility="visible" />
+
 </RelativeLayout>
